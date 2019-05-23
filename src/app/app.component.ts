@@ -6,5 +6,38 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-intro';
+  title: string = 'Hello World!';
+  age: number = 900000;
+  isShown: string = "I am being shown";
+  isNotShown: string = "I am not being shown";
+
+  person: object = {
+    name: "Jordan",
+    age: 500000000,
+    course: "Angular"
+  };
+
+  people: object[] = [
+    {
+      name: "Jordan",
+      age: 500000000,
+      course: "Angular"
+    },
+    {
+      name: "Bob",
+      age: 12,
+      course: "Something"
+    },
+    {
+      name: "Bill",
+      age: 1,
+      course: "That"
+    }
+  ];
+
+  colors: string[] = ['red', 'blue', 'green', 'yellow'];
+
+  myFunction(shouldShow: boolean): string {
+    return shouldShow ? this.isShown : this.isNotShown;
+  }
 }
