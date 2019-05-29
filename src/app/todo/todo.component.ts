@@ -32,6 +32,20 @@ export class TodoComponent implements OnInit {
     }
   }
 
+  emptyTodoTrash(): void {
+    this.todos = this.todos.filter(todo => !todo.isDeleted);
+    // let newArr = [];
+    // this.todos.forEach(todo => {
+    //   if (!todo.isDeleted) {
+    //     newArr.push(todo);
+    //   }
+    // });
+
+    // let newArr = this.todos.map(todo => {
+      // return todo.isDeleted;
+    // })
+  }
+
   ngOnInit() {
   }
 
