@@ -20,7 +20,7 @@ export const CHARACTERS: CharacterInterface[] = [
     {
         id: 3, 
         name: 'Batman', 
-        image: 'https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi3hqvM2b_iAhXN7Z4KHZ-sCoMQjRx6BAgBEAU&url=https%3A%2F%2Fwww.denofgeek.com%2Fus%2Fbooks%2Fdc-entertainment%2F280918%2Fbatman-last-knight-on-earth-sheer-insanity&psig=AOvVaw0K-f11hWBfkxe_NaDcR3xx&ust=1559183576798082',
+        image: 'https://www.dccomics.com/sites/default/files/styles/comics320x485/public/Char_Thumb_Batman_20190116_5c3fc4b40fae42.85141247.jpg?itok=_Or1JrO2',
         type: 'Hero', 
         abilities: ['Money', 'Gadgets', 'Martial Arts'], 
         description: 'He is Batman.'
@@ -30,7 +30,7 @@ export const CHARACTERS: CharacterInterface[] = [
         name: 'Joker', 
         image: 'https://fsmedia.imgix.net/74/08/a7/f1/defa/49d7/99c8/f4703ec169b1/gallerymovies1920x1080killingjoke5796a8191423c456279010jpg.jpeg?rect=478%2C0%2C1442%2C1080&auto=format%2Ccompress&dpr=2&w=1200',
         type: 'Villian', 
-        abilities: ['Instanity', 'Figting'], 
+        abilities: ['Insanity', 'Fighting'], 
         description: 'Heath Ledger.'
     },
     {

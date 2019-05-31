@@ -3,6 +3,6 @@ export class Character {
     name: '';
     image: '';
     type: '';
-    abilities: [];
+    abilities: string[];
     description: '';
 }

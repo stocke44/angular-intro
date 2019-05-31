@@ -5,4 +5,5 @@ export interface CharacterInterface {
     type: string;
     abilities: string[];
     description: string;
+    
 }
